@@ -1,28 +1,30 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>My Portfolio</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Custom Fonts-->
-<link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Work+Sans:400,700" rel="stylesheet">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-<!--CSS-->
-<link rel="stylesheet" href="css/w3.css" type='text/css'>
-<link rel="stylesheet" href="css/style.css" type="text/css">
+  <title>My Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Custom Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Gaegu" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <!--CSS-->
+  <link rel="stylesheet" href="css/w3.css" type='text/css'>
+  <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
- <body>
+
+<body>
   <!-- Navbar-->
   <div class="w3-top">
     <div class="w3-bar" id="myNavbar">
       <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
-      <i class="fa fa-bars"></i>
-    </a>
-      <a href="#home" class="w3-bar-item">HOME</a>
-      <a href="#about" class="w3-bar-item w3-hide-small">ABOUT</a>
-      <a href="#portfolioHeader" class="w3-bar-item w3-hide-small">PORTFOLIO</a>
-      <a href="#contactHeader" class="w3-bar-item w3-hide-small">CONTACT</a>
-    </a>
+        <i class="fa fa-bars"></i>
+      </a>
+      <a href="#home" class="w3-bar-item">Home</a>
+      <a href="#about" class="w3-bar-item w3-hide-small">About</a>
+      <a href="#portfolioHeader" class="w3-bar-item w3-hide-small">My Works</a>
+      <a href="#contactHeader" class="w3-bar-item w3-hide-small">Get in Touch</a>
+      </a>
     </div>
 
     <!-- Navbar on small screens -->
@@ -33,46 +35,55 @@
     </div>
   </div>
 
+
   <!-- First Parallax Image with Logo Text -->
-  <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="bgimg-1 w3-display-container " id="home">
     <div class="w3-display-middle">
-      <h1 class="w3-center w3-padding-large w3-wide" style="background-color: #242423">Jane Programmer</h1>
+      <h1 class="w3-center w3-wide" style="background-color: #3D3A4B">Vincent A.</h1>
+      <h3 class="w3-center" style="color: white">[hacker, traveler, wanderlust]</h3>
+
     </div>
   </div>
 
+
+
   <!-- Container (About Section) -->
   <div class="w3-content w3-container w3-padding-64" id="about">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <!--         <p><b><i class="fa fa-user w3-margin-right"></i>Me</b></p><br> -->
+      <img src="https://media.giphy.com/media/2fLgzU6ZNbqgj1jJy2/giphy.gif" class="w3-circle w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="300" height="400">
+    </div>
     <h3 class="w3-center">ABOUT ME</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-      in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat.
+    <p>My name is Vincent. I aspire to be a system admin in the IT industry, and I care about exploring the frontier of network security. I am compTIA A+ certified which is a recognized industry. Besides technology, things I like to do on my spare time: watch unscripted tv shows, traveling, play percussions, and learn new language.
     </p>
-    <div class="w3-row">
-      <div class="w3-col m6 w3-center w3-padding-large">
-        <p><b><i class="fa fa-user w3-margin-right"></i>Jane Programmer</b></p><br>
-        <img src="http://nb2pw.org/wp-content/uploads/2017/05/placeholder-headshot.png" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="300" height="250">
-      </div>
+    <div class="w3-row ">
+
+      <!--       <div class="w3-col m6 w3-center w3-padding-large">
+        <p><b><i class="fa fa-user w3-margin-right"></i>Me</b></p><br>
+        <img src="https://thumbs.dreamstime.com/b/cartoon-monster-face-vector-halloween-happy-monster-square-avatar-funny-monster-mask-monsters-creature-illustration-stock-97157851.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off " alt="Photo of Me" width="200" height="200">
+      </div> -->
 
       <!-- Hide this text on small devices -->
       <div class="w3-col m6 w3-hide-small w3-padding-large">
-        <p>I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p></p>
       </div>
     </div>
     <p class="w3-large w3-center w3-padding-16">My Skills:</p>
-    <p class="w3-wide"><i class="fa fa-database"></i>Back End Development</p>
+    <p class="w3-wide"><i class="fas fa-mobile-alt"></i>Mobile-app</p>
     <div>
-      <div class="w3-container w3-padding-small` w3-center bar-color" style="width:90%">90%</div>
+      <div class="w3-container w3-padding-small` w3-center bar-color" style="width:50%">50%</div>
     </div>
-    <p class="w3-wide"><i class="fa fa-laptop"></i>Front End Development</p>
+    <p class="w3-wide"><i class="fa fa-user-secret"></i>DevOps</p>
+    <div>
+      <div class="w3-container w3-padding-small` w3-center bar-color" style="width:30%">30%</div>
+    </div>
+    <p class="w3-wide"><i class="fa fa-gamepad"></i>Minecraft</p>
     <div>
       <div class="w3-container w3-padding-small w3-center bar-color" style="width:70%">70%</div>
     </div>
-    <p class="w3-wide"><i class="fas fa-chalkboard-teacher"></i>Teaching</p>
+    <p class="w3-wide"><i class="fas fa-hand-spock"></i>Twerk</p>
     <div>
-      <div class="w3-container w3-padding-small w3-center bar-color" style="width:85%">85%</div>
+      <div class="w3-container w3-padding-small w3-center bar-color" style="width:100%">200%</div>
     </div>
   </div>
 
@@ -85,50 +96,54 @@
 
   <!-- Container (Portfolio Section) -->
   <div class="w3-content w3-container w3-padding-64" id="portfolio">
-    <h3 class="w3-center">MY WORK</h3>
-    <p class="w3-center"><em>Here's some of my latest work.<br> Click on a project to learn more</em></p><br>
+    <h3 class="w3-center">MY WORKS</h3>
+    <p class="w3-center"><em>(Here's some of my latest work)</em>
+    </p>
 
     <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
     <div class="w3-row-padding w3-center">
+
       <div class="w3-col m3 projectContainer">
         <a href="#">
-          <img src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg" style="width:100%" class="w3-hover-opacity">
+          <img src="https://i.ytimg.com/vi/EbbV0DuCa_c/hqdefault.jpg" style="width:100%" class="w3-hover-grayscale">
           <div class="overlay">
             <h5>Project Title</h5>
-            <p>Project Description. Just a sentance or two.</p>
+            <p>Project Description</p>
           </div>
         </a>
       </div>
 
       <div class="w3-col m3 projectContainer">
         <a href="#">
-          <img src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg" style="width:100%" class="w3-hover-opacity">
+          <img src="http://static.freemake.com/blog/wp-content/uploads/2013/01/CollegeHumor.jpg" style="width:100%" class="w3-hover-grayscale">
           <div class="overlay">
             <h5>Project Title</h5>
-            <p>Project Description. Just a sentance or two.</p>
+            <p>Project Description</p>
           </div>
         </a>
       </div>
 
       <div class="w3-col m3 projectContainer">
         <a href="#">
-          <img src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg" style="width:100%" class="w3-hover-opacity">
+          <img src="https://i.ytimg.com/vi/IWwZAg9zt8U/hqdefault.jpg" style="width:100%" class="w3-hover-grayscale">
           <div class="overlay">
             <h5>Project Title</h5>
-            <p>Project Description. Just a sentance or two.</p>
+            <p>Project Description</p>
           </div>
         </a>
       </div>
 
       <div class="w3-col m3 projectContainer">
         <a href="#">
-          <img src="http://cohenwoodworking.com/wp-content/uploads/2016/09/image-placeholder-500x500.jpg" style="width:100%" class="w3-hover-opacity">
+          <img src="https://www.askideas.com/media/35/Dog-Closeup-Funny-Face-Image.jpg" style="width:100%" class="w3-hover-grayscale">
           <div class="overlay">
             <h5>Project Title</h5>
-            <p>Project Description. Just a sentance or two.</p>
+            <p>Project Description</p>
           </div>
         </a>
       </div>
+
+
     </div>
   </div>
 
@@ -140,29 +155,34 @@
   </div>
 
   <!-- Container (Contact Section) -->
-  <div class="w3-content w3-container w3-padding-32" id="contact">
-    <h3 class="w3-center">GET IN TOUCH!</h3>
+  <div id="fullwidth">
 
-    <div class="w3-row w3-padding-32 w3-section">
-      <div class="w3-col m6 w3-container w3-center">
-        <i class="fas fa-phone w3-jumbo"></i>
-        <h4>(215)-555-5555</h4>
-      </div>
-      <div class="w3-col m6 w3-container w3-center">
-        <i class="far fa-envelope w3-jumbo"></i>
-        <h4>address@email.com</h4>
+    <div class="w3-content w3-container w3-padding-32" id="contact">
+      <h3 class="w3-center">GET IN TOUCH!</h3>
+
+      <div class="w3-row w3-padding-32 w3-section">
+        <div class="w3-col m6 w3-container w3-center">
+          <i class="fas fa-phone-volume w3-jumbo"></i>
+          <h4>1800-My-Lemons</h4>
+        </div>
+        <div class="w3-col m6 w3-container w3-center">
+          <i class="fas fa-envelope w3-jumbo"></i>
+          <h4>asianpersuasion@hotmail.com</h4>
+        </div>
       </div>
     </div>
-  </div
+  </div>
 
   <!-- Footer -->
   <footer class="w3-center w3-black">
     <a href="#home" class="w3-button"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
     <div class="w3-xxlarge w3-section">
-      <i class="fab fa-facebook w3-hover-opacity"></i>
+
+      <!--       <i class="fab fa-facebook w3-hover-opacity"></i>
       <i class="fab fa-instagram w3-hover-opacity"></i>
-      <i class="fab fa-twitter w3-hover-opacity"></i>
-      <i class="fab fa-linkedin w3-hover-opacity"></i>
+      <i class="fab fa-twitter w3-hover-opacity"></i> -->
+
+      <a href="https://www.fakenamegenerator.com/"><i class="fab fa-linkedin w3-hover-opacity"></i></a>
     </div>
   </footer>
 
@@ -177,17 +197,17 @@
 
     function myFunction() {
       var navbar = document.getElementById("myNavbar");
-      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+      if(document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
         navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " nav-change";
       } else {
         navbar.className = navbar.className.replace(" w3-card w3-animate-top nav-change", "");
       }
     }
+     // Used to toggle the menu on small screens when clicking on the menu button
 
-    // Used to toggle the menu on small screens when clicking on the menu button
     function toggleFunction() {
       var x = document.getElementById("navDemo");
-      if (x.className.indexOf("w3-show") == -1) {
+      if(x.className.indexOf("w3-show") == -1) {
         x.className += " w3-show";
       } else {
         x.className = x.className.replace(" w3-show", "");
